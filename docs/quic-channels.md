@@ -895,7 +895,7 @@ command AqcCreateBidiChannel {
 
 ##### AqcCreateUniChannel
 
-Creates a bidirectional AQC channel for off-graph messaging.
+Creates a unidirectional AQC channel for off-graph messaging.
 This is an ephemeral command, which means that it can only be
 emitted within an ephemeral session so that it is not added to
 the graph of commands. Furthermore, it cannot persist any changes
